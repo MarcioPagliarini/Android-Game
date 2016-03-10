@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_town">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/porta_shop3"
+        android:clickable="true"
+        android:onClick="goShop"
+        android:id="@+id/doorShop"
+        android:layout_marginBottom="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placatown"
+        android:src="@drawable/placa_100"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="70dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seta"
+        android:src="@drawable/flecha"
+        android:clickable="true"
+        android:onClick="goPantano"
+        android:layout_alignBottom="@+id/doorShop"
+        android:layout_toRightOf="@+id/placatown"
+        android:layout_toEndOf="@+id/placatown"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flechainicio"
+        android:clickable="true"
+        android:onClick="goInicio"
+        android:src="@drawable/flecha_down"
+        android:layout_below="@+id/seta"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/poco"
+        android:clickable="true"
+        android:onClick="goPoco"
+        android:src="@drawable/flecha_down"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp" />
+
+</RelativeLayout>

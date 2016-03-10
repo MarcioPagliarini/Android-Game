@@ -1,2 +1,2 @@
 # Morbujel-Game
-A little game based on Android.
+A little game made on Android.
